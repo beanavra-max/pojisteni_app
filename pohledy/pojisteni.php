@@ -35,7 +35,7 @@
 <form method="post" class="novy-pojistenec-form">
 
     <div class="avatar">
-        <img src="avatar.png" alt="Avatar" />
+        <img src="/pojisteni_app/avatar.png" alt="Avatar" />
     </div>
 
     <div class="form-right-side">
@@ -66,4 +66,5 @@
 
 </body>
 </html>
+
 
