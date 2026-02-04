@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    border: 1px solid #ddd;
+}
+
+/* --- Nový formulář --- */
+.novy-pojistenec-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+
+    display: flex;
+    align-items: center; /* vertikální centrování avataru */
+    gap: 20px;
+}
+
+.novy-pojistenec-form .avatar {
+    flex-shrink: 0;
+}
+
+.novy-pojistenec-form .avatar img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Pravá část formuláře - sloupce + tlačítko */
+.novy-pojistenec-form .form-right-side {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+/* Dva sloupce vstupních polí */
+.novy-pojistenec-form .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+/* Každý sloupec */
+.novy-pojistenec-form .form-left,
+.novy-pojistenec-form .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+/* Popisky */
+.novy-pojistenec-form label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/* Vstupní pole */
+.novy-pojistenec-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Kontejner tlačítka pro centrování */
+.novy-pojistenec-form .form-button-wrapper {
+    text-align: center;
+}
+
+/* Tlačítko uložit */
+.novy-pojistenec-form button {
+    background-color: #007bff;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+}
+
+.novy-pojistenec-form button:hover {
+    background-color: #0056b3;
+}
